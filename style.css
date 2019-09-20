@@ -17,33 +17,37 @@ div#particles-js {
     background: #000000;
 }
 
-.page {
-    width: 100%;
+.page-top {
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     position: absolute;
+    justify-content: center;
     align-items: center;
     top: 0;
 }
 
-.space {
-    height: 35vh;
+.social {
+    font-size: 50px;
+    margin: 10px;
 }
 
-.title {
+.barlow {
     font-family: 'Barlow', sans-serif;
+}
+
+h1 {
     font-size: 70px;
     margin: 0px;
 }
 
-.subtitle {
-    font-family: 'Barlow', sans-serif;
+h2 {
     font-size: 35px;
     margin: 0px;
 }
 
-.subsubtitle {
-    font-family: 'Barlow', sans-serif;
+h3 {
     font-size: 15px;
     margin: 5px;
 }
